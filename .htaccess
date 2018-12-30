@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^main$ web/index.php [L]
+Options All -Indexes
+</IfModule>
